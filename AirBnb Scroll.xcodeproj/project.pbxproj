@@ -3,27 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4714C0D8269E0E750025196C /* ContentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0D7269E0E750025196C /* ContentHeader.swift */; };
+		4714C0DA269E1BC90025196C /* UITraitCollection+Inverted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0D9269E1BC90025196C /* UITraitCollection+Inverted.swift */; };
+		4714C0DC269E1D120025196C /* UIColor+Inverted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0DB269E1D120025196C /* UIColor+Inverted.swift */; };
+		4714C0DE269E1FB40025196C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0DD269E1FB40025196C /* BackgroundView.swift */; };
+		4714C0E0269E25720025196C /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0DF269E25720025196C /* FooterCell.swift */; };
+		4714C0E2269E54DB0025196C /* UITextView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4714C0E1269E54DB0025196C /* UITextView+Helpers.swift */; };
 		478D794B269B895F00910A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D794A269B895F00910A34 /* AppDelegate.swift */; };
 		478D794D269B895F00910A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D794C269B895F00910A34 /* SceneDelegate.swift */; };
-		478D794F269B895F00910A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D794E269B895F00910A34 /* ViewController.swift */; };
+		478D794F269B895F00910A34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D794E269B895F00910A34 /* HomeViewController.swift */; };
 		478D7952269B895F00910A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478D7950269B895F00910A34 /* Main.storyboard */; };
-		478D7954269B896000910A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D7953269B896000910A34 /* Assets.xcassets */; };
 		478D7957269B896000910A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478D7955269B896000910A34 /* LaunchScreen.storyboard */; };
+		478D795F269B8C1A00910A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D795E269B8C1A00910A34 /* Assets.xcassets */; };
+		478D7963269B903700910A34 /* Anchorage in Frameworks */ = {isa = PBXBuildFile; productRef = 478D7962269B903700910A34 /* Anchorage */; };
+		478D7965269B907400910A34 /* ProgrammaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7964269B907400910A34 /* ProgrammaticView.swift */; };
+		478D7968269B918000910A34 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7967269B918000910A34 /* UIView+Helpers.swift */; };
+		478D796A269B91D800910A34 /* UIStackView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7969269B91D800910A34 /* UIStackView+Helpers.swift */; };
+		478D796C269B924B00910A34 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D796B269B924B00910A34 /* UIImage+Helpers.swift */; };
+		478D796E269B92E000910A34 /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D796D269B92E000910A34 /* UIFont+Custom.swift */; };
+		478D7970269B946000910A34 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D796F269B946000910A34 /* HomeView.swift */; };
+		478D7972269B954F00910A34 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7971269B954F00910A34 /* HeaderView.swift */; };
+		478D7975269B964400910A34 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7974269B964400910A34 /* Content.swift */; };
+		478D7978269B995900910A34 /* SmallSquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7977269B995900910A34 /* SmallSquareCell.swift */; };
+		478D797A269BA48E00910A34 /* NSCollectionLayoutSection+Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D7979269BA48E00910A34 /* NSCollectionLayoutSection+Layouts.swift */; };
+		47AEB37B269DAA0200EE5997 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEB37A269DAA0200EE5997 /* ContentCell.swift */; };
+		47AEB37D269DAF4000EE5997 /* LargeSquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEB37C269DAF4000EE5997 /* LargeSquareCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4714C0D7269E0E750025196C /* ContentHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeader.swift; sourceTree = "<group>"; };
+		4714C0D9269E1BC90025196C /* UITraitCollection+Inverted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Inverted.swift"; sourceTree = "<group>"; };
+		4714C0DB269E1D120025196C /* UIColor+Inverted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Inverted.swift"; sourceTree = "<group>"; };
+		4714C0DD269E1FB40025196C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		4714C0DF269E25720025196C /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		4714C0E1269E54DB0025196C /* UITextView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Helpers.swift"; sourceTree = "<group>"; };
 		478D7947269B895F00910A34 /* AirBnb Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBnb Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		478D794A269B895F00910A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478D794C269B895F00910A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		478D794E269B895F00910A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478D794E269B895F00910A34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		478D7951269B895F00910A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		478D7953269B896000910A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478D7956269B896000910A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		478D7958269B896000910A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478D795E269B8C1A00910A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478D7964269B907400910A34 /* ProgrammaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticView.swift; sourceTree = "<group>"; };
+		478D7967269B918000910A34 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		478D7969269B91D800910A34 /* UIStackView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Helpers.swift"; sourceTree = "<group>"; };
+		478D796B269B924B00910A34 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+		478D796D269B92E000910A34 /* UIFont+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
+		478D796F269B946000910A34 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		478D7971269B954F00910A34 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		478D7974269B964400910A34 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		478D7977269B995900910A34 /* SmallSquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSquareCell.swift; sourceTree = "<group>"; };
+		478D7979269BA48E00910A34 /* NSCollectionLayoutSection+Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCollectionLayoutSection+Layouts.swift"; sourceTree = "<group>"; };
+		47AEB37A269DAA0200EE5997 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		47AEB37C269DAF4000EE5997 /* LargeSquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeSquareCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478D7963269B903700910A34 /* Anchorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +94,65 @@
 		478D7949269B895F00910A34 /* AirBnb Scroll */ = {
 			isa = PBXGroup;
 			children = (
-				478D794A269B895F00910A34 /* AppDelegate.swift */,
-				478D794C269B895F00910A34 /* SceneDelegate.swift */,
-				478D794E269B895F00910A34 /* ViewController.swift */,
-				478D7950269B895F00910A34 /* Main.storyboard */,
-				478D7953269B896000910A34 /* Assets.xcassets */,
-				478D7955269B896000910A34 /* LaunchScreen.storyboard */,
-				478D7958269B896000910A34 /* Info.plist */,
+				478D7976269B993D00910A34 /* CollectionViewElements */,
+				478D7973269B963500910A34 /* Model */,
+				478D7966269B916F00910A34 /* Extensions */,
+				478D7960269B8C6100910A34 /* Resources */,
+				478D794E269B895F00910A34 /* HomeViewController.swift */,
+				478D7964269B907400910A34 /* ProgrammaticView.swift */,
+				478D796F269B946000910A34 /* HomeView.swift */,
+				478D7971269B954F00910A34 /* HeaderView.swift */,
 			);
 			path = "AirBnb Scroll";
+			sourceTree = "<group>";
+		};
+		478D7960269B8C6100910A34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				478D794A269B895F00910A34 /* AppDelegate.swift */,
+				478D794C269B895F00910A34 /* SceneDelegate.swift */,
+				478D7950269B895F00910A34 /* Main.storyboard */,
+				478D7955269B896000910A34 /* LaunchScreen.storyboard */,
+				478D795E269B8C1A00910A34 /* Assets.xcassets */,
+				478D7958269B896000910A34 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		478D7966269B916F00910A34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				478D7967269B918000910A34 /* UIView+Helpers.swift */,
+				478D7969269B91D800910A34 /* UIStackView+Helpers.swift */,
+				478D796B269B924B00910A34 /* UIImage+Helpers.swift */,
+				478D796D269B92E000910A34 /* UIFont+Custom.swift */,
+				4714C0D9269E1BC90025196C /* UITraitCollection+Inverted.swift */,
+				4714C0DB269E1D120025196C /* UIColor+Inverted.swift */,
+				4714C0E1269E54DB0025196C /* UITextView+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		478D7973269B963500910A34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				478D7974269B964400910A34 /* Content.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D7976269B993D00910A34 /* CollectionViewElements */ = {
+			isa = PBXGroup;
+			children = (
+				478D7979269BA48E00910A34 /* NSCollectionLayoutSection+Layouts.swift */,
+				47AEB37A269DAA0200EE5997 /* ContentCell.swift */,
+				4714C0D7269E0E750025196C /* ContentHeader.swift */,
+				47AEB37C269DAF4000EE5997 /* LargeSquareCell.swift */,
+				478D7977269B995900910A34 /* SmallSquareCell.swift */,
+				4714C0DD269E1FB40025196C /* BackgroundView.swift */,
+				4714C0DF269E25720025196C /* FooterCell.swift */,
+			);
+			path = CollectionViewElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,9 @@
 			dependencies = (
 			);
 			name = "AirBnb Scroll";
+			packageProductDependencies = (
+				478D7962269B903700910A34 /* Anchorage */,
+			);
 			productName = "AirBnb Scroll";
 			productReference = 478D7947269B895F00910A34 /* AirBnb Scroll.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 478D793E269B895F00910A34;
+			packageReferences = (
+				478D7961269B903600910A34 /* XCRemoteSwiftPackageReference "Anchorage" */,
+			);
 			productRefGroup = 478D7948269B895F00910A34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478D7957269B896000910A34 /* LaunchScreen.storyboard in Resources */,
-				478D7954269B896000910A34 /* Assets.xcassets in Resources */,
+				478D795F269B8C1A00910A34 /* Assets.xcassets in Resources */,
 				478D7952269B895F00910A34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +231,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478D794F269B895F00910A34 /* ViewController.swift in Sources */,
+				478D7970269B946000910A34 /* HomeView.swift in Sources */,
+				47AEB37B269DAA0200EE5997 /* ContentCell.swift in Sources */,
+				4714C0D8269E0E750025196C /* ContentHeader.swift in Sources */,
+				47AEB37D269DAF4000EE5997 /* LargeSquareCell.swift in Sources */,
+				4714C0E2269E54DB0025196C /* UITextView+Helpers.swift in Sources */,
+				478D7968269B918000910A34 /* UIView+Helpers.swift in Sources */,
+				4714C0DA269E1BC90025196C /* UITraitCollection+Inverted.swift in Sources */,
+				478D7978269B995900910A34 /* SmallSquareCell.swift in Sources */,
+				478D796E269B92E000910A34 /* UIFont+Custom.swift in Sources */,
+				4714C0DC269E1D120025196C /* UIColor+Inverted.swift in Sources */,
+				478D7975269B964400910A34 /* Content.swift in Sources */,
+				4714C0E0269E25720025196C /* FooterCell.swift in Sources */,
+				478D794F269B895F00910A34 /* HomeViewController.swift in Sources */,
 				478D794B269B895F00910A34 /* AppDelegate.swift in Sources */,
+				478D7972269B954F00910A34 /* HeaderView.swift in Sources */,
+				478D796C269B924B00910A34 /* UIImage+Helpers.swift in Sources */,
+				478D796A269B91D800910A34 /* UIStackView+Helpers.swift in Sources */,
+				478D7965269B907400910A34 /* ProgrammaticView.swift in Sources */,
 				478D794D269B895F00910A34 /* SceneDelegate.swift in Sources */,
+				4714C0DE269E1FB40025196C /* BackgroundView.swift in Sources */,
+				478D797A269BA48E00910A34 /* NSCollectionLayoutSection+Layouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AirBnb Scroll/Info.plist";
+				INFOPLIST_FILE = "AirBnb Scroll/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AirBnb Scroll/Info.plist";
+				INFOPLIST_FILE = "AirBnb Scroll/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +451,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		478D7961269B903600910A34 /* XCRemoteSwiftPackageReference "Anchorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/Anchorage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		478D7962269B903700910A34 /* Anchorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 478D7961269B903600910A34 /* XCRemoteSwiftPackageReference "Anchorage" */;
+			productName = Anchorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 478D793F269B895F00910A34 /* Project object */;
 }

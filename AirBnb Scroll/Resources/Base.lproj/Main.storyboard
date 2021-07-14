@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sw0-Th-vNd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Explore-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="AirBnb_Scroll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="GwI-y1-u47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-197" y="537"/>
+        </scene>
+        <!--Saved-->
+        <scene sceneID="S6V-eH-xAk">
+            <objects>
+                <viewController id="MBP-wc-Xdc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sgk-lf-OWV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NVD-p0-wOL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Saved" image="heart" catalog="system" id="yDc-kO-Y7z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXE-LL-gkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="536"/>
+        </scene>
+        <!--Trips-->
+        <scene sceneID="pYr-mx-qJB">
+            <objects>
+                <viewController id="Iv1-Ln-rGP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jjr-in-m3J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Gu1-9U-VXo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trips" image="scribble.variable" catalog="system" id="clE-uz-8FS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rh5-xZ-89w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1306" y="536"/>
+        </scene>
+        <!--Inbox-->
+        <scene sceneID="zV3-T9-SQP">
+            <objects>
+                <viewController id="j9n-Cb-Otu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yVc-Vh-1N9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qgG-5G-AmD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inbox" image="message" catalog="system" id="cmH-lK-gw8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvb-bc-Job" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1981" y="536"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="fsn-lx-Kji">
+            <objects>
+                <viewController id="2Qx-au-ft9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WXp-KX-cuh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fCc-Au-Yys"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="hE2-5N-FSi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ig3-BX-wSN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2683" y="536"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OKs-dx-FpO">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Sw0-Th-vNd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mXC-mP-lQJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemPinkColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="W2h-zL-NR0"/>
+                        <segue destination="MBP-wc-Xdc" kind="relationship" relationship="viewControllers" id="P8Y-7Y-tU1"/>
+                        <segue destination="Iv1-Ln-rGP" kind="relationship" relationship="viewControllers" id="6OC-Rr-Cnu"/>
+                        <segue destination="j9n-Cb-Otu" kind="relationship" relationship="viewControllers" id="szz-FU-aWi"/>
+                        <segue destination="2Qx-au-ft9" kind="relationship" relationship="viewControllers" id="NCa-gp-a5y"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dto-uX-cif" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="-190"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="scribble.variable" catalog="system" width="128" height="118"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
